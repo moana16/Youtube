@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- 인라인 테그 : span, a, img, butto ..
+    블록 태그 : p, div, ul, li, h1-h6
+-->
+<!-- display : none, inline : 한줄에 쓸수 있고 크기 지정 x content의 크기만큼만 지정됨 , block : 하나의 태그마다 한줄을 차지함,
+    , inline-block : 한줄에 쓸수 있으면서 weight, height 지정가능한 
+    n-th-child(n)을 사용하면 n번째 자식만 따로 지정가능한..(근데 이거 쓰긴 쓰나?)
+    box-sizing : border-box 를 주로 사용함 이유는 content-box를 사용하면 padding과 border가 설정할때마다 계속 커져서 불편하기 때문임
+    절대적인 사이즈 : px, 유동적인 사이즈 :ram,em(font사이즈 지정), %(높이넓이 지정)// vh, vw : 화면의 전체 높이, 넓이(뭔지잘모름) => 이것들은 가장 최상위 부모인 html태그를 기준으로 함
+    각 브라우저 마다 기본으로 주는 값이 다를수도 있기 때문에 reset-css를 사용하거나 html태그에 margin:0;, padding:0;을 넣어줌
+    flexBox는 flex container와 flex item으로 이루어져 있음 flex-direction은 네가지가 있음 기본 row, row-revers(내림차순), column, column-revers
+    justify-content는 정렬속성 : flex-start, flex-end, center, space-between, space-around, space-evenly
+    align-items는 : flex-start, flex-end, center, stretch, baseline(text를 기준으로 정렬)
+    flex를 사용하는 이유? 반응형 웹페이지에 최적화됨, 각각의 아이템의 크기가 화면 크기와 동일하게 조절됨    
+    flex-grow : n 를 사용하면 남음 weight의 px를 n의 비율로 추가로 나눠가질 수 있음..
+    flex-shrink : 반대로 얘는 그 비율만큰 줄어들음 근데 얘는 width가 기본 1이라서 딱히 지정안해도 기본 1의 비율로 줄어들음
+    flex-wrap : 항상 flex-container에 써줘야함, wrap, wrap-reverse, 
+    align-content : flex-start, flex-end, center, stretch, space-between, space-around ... 이 속성은 wrap속성이여야지만 적용가능한-->
+<!-- position : static, relative, absolute, stickv, fixed
+    relative 속성을 사용할때 z-index 값을 사용하면 겹칠 수 있음 기본이 0으로 설정되어있기 때문에 -1을 하면 가장 뒤로감
+    absolute는 static 속성을 사용하는 태그 기준으로 하는데 없으면 body태그 기준으로 됨
+    fixed는 스크롤할때 많이 사용 스크롤 해도 고정되어있음
+    sticky도 fixed랑 유사함근데 상하좌우 중 하나를 선택해줘야함 아항ㅇ -->
